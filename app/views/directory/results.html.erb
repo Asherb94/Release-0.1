@@ -1,0 +1,10 @@
+<h1>Directory#results</h1>
+<p>Find me in app/views/directory/results.html.erb</p>
+<table border="1">
+    <% @theater.each do |theater| %>
+    <tr>
+        <td><%= theater.time %></td>
+        <td><%= theater.day %></td>
+    </tr>
+    <%end%>
+</table>
