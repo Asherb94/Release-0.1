@@ -1,0 +1,1 @@
+json.array! @movies, partial: 'thor', as: :movie

@@ -1,0 +1,1 @@
+json.partial! "static_pages/thor", movie: @movie
